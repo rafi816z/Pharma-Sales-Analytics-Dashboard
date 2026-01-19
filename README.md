@@ -1,4 +1,4 @@
-# 💊 Pharma Sales Analytics Dashboard (Power BI + SQL + Python)
+# 💊 Pharmaceutical Sales Analytics & Forecasting Dashboard (Power BI + SQL + Python)
 
 ## 🧩 Business Problem
 
@@ -6,7 +6,7 @@ Pharmaceutical companies operate in a highly competitive and regulated environme
 
 Sales reporting is typically static and backward-looking, making it difficult to identify **which markets, products, and teams truly drive growth** and where the business is overly dependent on a few contributors.
 
-This project addresses these challenges by building an **end-to-end pharma sales analytics solution** using SQL, Python, and Power BI to deliver **actionable, visual-driven insights** for strategic sales planning and decision-making.
+This project addresses these challenges by building an **end-to-end pharma sales analytics solution** using Python, SQL, and Power BI to deliver **actionable, visual-driven insights** for strategic sales planning and decision-making.
 
 ---
 
@@ -51,8 +51,8 @@ The dashboard provides:
 - Sales Representative  
 
 **Data Modeling:**
-- Fact Table: Sales Transactions  
-- Dimension Tables: Date, Product, Country, City, Channel, Distributor, Sales Team, Sales Representative  
+- Fact Table: Sales Transactions & Monthly Product Sales 
+- Dimension Tables: Date, Product, Geography, Channel, Distributor, Sales Representative and Team  
 - Optimized for time intelligence and scalable DAX calculations  
 
 ---
@@ -71,10 +71,10 @@ The dashboard provides:
 ### 🟦 Page 1 — Executive Sales Performance Dashboard
 
 **Key Metrics:**
-- Total Sales: $12.09B  
-- Total Units Sold: 29.39M  
-- Total Transactions: 254K  
-- Active Products: 240  
+- Total Sales: **$12.09B**  
+- Total Units Sold: **29.39M**  
+- Total Transactions: **254K**  
+- Active Products: **240**  
 
 **Visual Highlights:**
 - **Top 10 Cities by Revenue (Map):** Revenue heavily concentrated in a few German cities  
@@ -99,9 +99,9 @@ The dashboard provides:
 
 **Visual Highlights:**
 
-- **Avg. MoM Growth KPI:** Overall average month-over-month growth of 2.70%  
-- **Highest Sales Month Card:** August records the highest sales at $1,227.11M  
-- **Lowest Sales Month Card:** January records the lowest sales at $685.02M  
+- **Avg. MoM Growth KPI:** Overall average month-over-month growth of **2.70%**  
+- **Highest Sales Month Card:** August records the highest sales at **$1,227.11M**  
+- **Lowest Sales Month Card:** January records the lowest sales at **$685.02M**  
 - **Sales Trend Comparison Across Drug Names (Small Multiples Line Charts):** Reveals varying growth stability across individual products  
 - **Month-on-Month Sales Growth Breakdown (Waterfall Chart):** Highlights periods of sharp growth and contraction across months  
 - **Historical Sales Trend with Forecast Projection (Line + Forecast):** Shows stable future sales with increasing uncertainty over time   
@@ -111,11 +111,11 @@ The dashboard provides:
 ### 🟦 Page 4 — Regional & Channel Performance Analysis
 
 **Visual Highlights:**
-
-- **Country-Level Sales Performance (Map):** Germany dominates regional sales, significantly outperforming Poland across all selected periods  
+  
 - **Avg Sales per City KPI:** Average city-level sales stand at **$16.14M**, indicating strong geographic concentration  
 - **Top Performing City Card:** Butzbach emerges as the highest revenue-generating city with **$96.37M** in sales  
 - **Top Performing Country Card:** Germany leads overall sales with **$11,410.70M**, contributing the majority share  
+- **Country-Level Sales Performance (Map):** Germany dominates regional sales, significantly outperforming Poland across all selected periods
 - **Sales by Country and Channel (Stacked Bar Chart):** Pharmacy channel drives higher revenue than Hospital channel, particularly in Germany  
 - **City-Level Sales by Channel (Matrix Table):** Provides granular visibility into Hospital vs Pharmacy performance at the city level  
 - **Sales by Channel and Sub-Channel (Stacked Bar Chart):** Retail and Private sub-channels contribute the largest share, while Government and Institutional channels show moderate penetration  
