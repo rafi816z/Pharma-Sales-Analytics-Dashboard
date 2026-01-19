@@ -108,21 +108,31 @@ The dashboard provides:
 
 ---
 
-### 🟦 Page 4 — Regional & Channel Performance
+### 🟦 Page 4 — Regional & Channel Performance Analysis
 
 **Visual Highlights:**
-- **Sales by Channel (Bar Chart):** Hospital channel dominates overall revenue  
-- **City-Level Revenue Distribution (Map/Bar):** Butzbach alone contributes nearly $100M  
-- **Regional Sales Comparison (Country/City View):** Average city sales hide extreme regional concentration  
+
+- **Country-Level Sales Performance (Map):** Germany dominates regional sales, significantly outperforming Poland across all selected periods  
+- **Avg Sales per City KPI:** Average city-level sales stand at **$16.14M**, indicating strong geographic concentration  
+- **Top Performing City Card:** Butzbach emerges as the highest revenue-generating city with **$96.37M** in sales  
+- **Top Performing Country Card:** Germany leads overall sales with **$11,410.70M**, contributing the majority share  
+- **Sales by Country and Channel (Stacked Bar Chart):** Pharmacy channel drives higher revenue than Hospital channel, particularly in Germany  
+- **City-Level Sales by Channel (Matrix Table):** Provides granular visibility into Hospital vs Pharmacy performance at the city level  
+- **Sales by Channel and Sub-Channel (Stacked Bar Chart):** Retail and Private sub-channels contribute the largest share, while Government and Institutional channels show moderate penetration  
 
 ---
 
 ### 🟦 Page 5 — Sales Team & Representative Performance
 
 **Visual Highlights:**
-- **Sales Contribution by Team (Bar Chart):** Team *Delta* contributes ~30.8% of total revenue  
-- **Sales Contribution by Representative (Ranked Bar Chart):** 13 sales reps generate the entire $12.09B  
-- **Deal Size vs Deal Volume (Scatter Plot):** Teams succeed via large deals or high deal velocity  
+
+- **Active Sales Representatives KPI:** 13 active sales representatives contributing to total revenue  
+- **Highest Contributing Sales Rep Card:** Jimmy Grey leads individual contribution with **8.30%** of total sales  
+- **Top Contributing Sales Team Card:** Delta team contributes the highest share at **30.78%**  
+- **Revenue Contribution by Sales Representative (Bar Chart):** Highlights revenue distribution and identifies top and mid-tier performers  
+- **Deal Size vs Contribution by Sales Team (Bubble Chart):** Delta team combines high contribution with strong average deal size, while Alfa operates at lower deal values  
+- **Sales Representative Performance Summary (Matrix Table):** Consolidated view of sales, units sold, contribution percentage, and average deal size by manager  
+- **Sales Growth Patterns of Top 4 Representatives (Small Multiples Line Charts):** Displays long-term sales consistency, volatility, and growth trends for top-performing representatives  
 
 ---
 
